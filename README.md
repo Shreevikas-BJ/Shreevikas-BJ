@@ -129,11 +129,41 @@ I am an AI/ML and Data professional with 4+ years of experience across machine l
   </tr>
 </table>
 
+## More Engineering Work
+
+The projects above are prioritized for recruiter review. These additional public repositories show broader work across applied AI, machine learning, MLOps, analytics, and data products.
+
+| Project | Engineering focus |
+| --- | --- |
+| [Sales Forecasting MLOps Pipeline](https://github.com/Shreevikas-BJ/sales-forecasting-mlops-pipeline) | Production-style forecasting with PySpark feature engineering, Snowflake storage, baseline and XGBoost models, rolling backtesting, monitoring metrics, and Streamlit. |
+| [Subscription Value Brain](https://github.com/Shreevikas-BJ/subscription-value-brain) | Customer-value intelligence combining churn prediction, CLV estimation, uplift modeling, targeting scores, and campaign simulation. |
+| [IT Helpdesk AI Agent](https://github.com/Shreevikas-BJ/it-helpdesk-ai-agent) | Agentic support assistant using DistilBERT classification, FAISS retrieval, cross-encoder reranking, LangGraph orchestration, and command-safety guardrails. |
+| [Medical RAG Chatbot](https://github.com/Shreevikas-BJ/medical-rag-chatbot) | Medical-document assistant with local ingestion, embeddings, FAISS retrieval, and grounded GPT-based answer generation. |
+| [Real-Time CCTV Anomaly Detection](https://github.com/Shreevikas-BJ/real-time-cctv-anomaly-detection) | Unsupervised video anomaly detection with a PyTorch convolutional autoencoder, OpenCV, reconstruction-error thresholds, and alert capture. |
+| [BERT Sentiment Analysis App](https://github.com/Shreevikas-BJ/bert-sentiment-analysis-app) | Streamlit application using a fine-tuned BERT, Hugging Face, and PyTorch classifier for movie-review sentiment analysis. |
+| [Customer Churn Prediction ML](https://github.com/Shreevikas-BJ/customer-churn-prediction-ml) | End-to-end telecom churn workflow spanning cleaning, EDA, encoding, logistic-regression training, and Scikit-learn evaluation. |
+| [NVIDIA Stock Forecasting](https://github.com/Shreevikas-BJ/nvidia-stock-forecasting) | Financial time-series analysis applying ARIMA, LSTM, and GARCH to price trends, returns, and volatility. |
+| [Plant Co Performance Dashboard](https://github.com/Shreevikas-BJ/plant-co-performance-dashboard) | Power BI executive dashboard using Power Query and DAX for sales, quantity, gross-profit, country, product, and account analysis. |
+| [COVID-19 Vaccination SQL Analysis](https://github.com/Shreevikas-BJ/covid19-vaccination-sql-analysis) | Microsoft SQL Server analysis using joins, aggregations, window functions, CTEs, temporary tables, and views. |
+| [House Price Predictor with XGBoost](https://github.com/Shreevikas-BJ/house-price-predictor-xgboost) | Kaggle regression workflow covering preprocessing, categorical encoding, XGBoost training, and RMSE evaluation. |
+| [Scikit-learn Hands-on Guide](https://github.com/Shreevikas-BJ/scikitlearn-handson-guide) | Notebook-based guide to regression, classification, clustering, ensemble methods, and XGBoost with real datasets. |
+
+<details>
+  <summary><strong>Resume-based engineering case studies</strong></summary>
+  <br />
+  <p>These engagements are documented in my resume; no public repository is linked.</p>
+  <ul>
+    <li><strong>Intelligent Inventory Demand Forecasting Platform:</strong> Multi-regional inventory forecasting with PySpark, XGBoost, MLflow, FastAPI, and AWS-based training and release workflows.</li>
+    <li><strong>Manufacturing Process Quality Intelligence System:</strong> Predictive-quality and anomaly-detection workflows using Python, Scikit-learn, statistical validation, PostgreSQL, and Tableau.</li>
+    <li><strong>Enterprise Knowledge Search Platform:</strong> Grounded enterprise RAG with transformer embeddings, semantic chunking, vector retrieval, LangChain orchestration, retrieval evaluation, PostgreSQL, and FastAPI.</li>
+  </ul>
+</details>
+
 ## Technology Stack
 
 **AI & Generative AI**<br />
 <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&amp;logo=python&amp;logoColor=white" alt="Python" /> <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&amp;logo=pytorch&amp;logoColor=white" alt="PyTorch" /> <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&amp;logo=tensorflow&amp;logoColor=white" alt="TensorFlow" /> <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&amp;logo=scikitlearn&amp;logoColor=white" alt="scikit-learn" /> <img src="https://img.shields.io/badge/Hugging_Face-FFD21E?style=flat-square&amp;logo=huggingface&amp;logoColor=black" alt="Hugging Face" /><br />
-<sub>XGBoost · Transformers · LangChain · LangGraph · RAG · embeddings · reranking · agentic workflows · LLM evaluation · guardrails</sub>
+<sub>XGBoost · Transformers · LangChain · LangGraph · RAG · embeddings · reranking · agentic workflows · LLM evaluation · guardrails · MCP · OpenAI Agents SDK</sub>
 
 **Data Engineering**<br />
 <img src="https://img.shields.io/badge/PySpark-E25A1C?style=flat-square&amp;logo=apachespark&amp;logoColor=white" alt="PySpark" /> <img src="https://img.shields.io/badge/Apache_Spark-E25A1C?style=flat-square&amp;logo=apachespark&amp;logoColor=white" alt="Apache Spark" /> <img src="https://img.shields.io/badge/Apache_Kafka-231F20?style=flat-square&amp;logo=apachekafka&amp;logoColor=white" alt="Apache Kafka" /> <img src="https://img.shields.io/badge/dbt-FF694B?style=flat-square&amp;logo=dbt&amp;logoColor=white" alt="dbt" /><br />
@@ -146,6 +176,9 @@ I am an AI/ML and Data professional with 4+ years of experience across machine l
 **MLOps & Application Engineering**<br />
 <img src="https://img.shields.io/badge/MLflow-0194E2?style=flat-square&amp;logo=mlflow&amp;logoColor=white" alt="MLflow" /> <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&amp;logo=docker&amp;logoColor=white" alt="Docker" /> <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&amp;logo=kubernetes&amp;logoColor=white" alt="Kubernetes" /> <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&amp;logo=fastapi&amp;logoColor=white" alt="FastAPI" /> <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&amp;logo=nextdotjs&amp;logoColor=white" alt="Next.js" /> <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&amp;logo=typescript&amp;logoColor=white" alt="TypeScript" /><br />
 <sub>Model serving · monitoring · CI/CD · Pydantic · pytest · Streamlit · Power BI · Tableau · Git</sub>
+
+**Additional Modeling, Analytics & Delivery**<br />
+<sub>R · LightGBM · BERT · FAISS · OpenCV · Matplotlib · Plotly · statistical analysis · A/B testing · SQL Server · MySQL · MongoDB · Linux · REST APIs · Jira · Confluence · Agile · Scrum</sub>
 
 ## Professional Highlights
 
