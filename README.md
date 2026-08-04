@@ -30,6 +30,22 @@
 
 I am an AI/ML and Data professional with 4+ years of experience across machine learning, data science, analytics, and data engineering. I build production-oriented models and inference workflows, trustworthy RAG systems, agentic AI applications, and evaluation layers that improve retrieval quality, safety, and reliability. My data work spans batch and streaming pipelines, Snowflake, Databricks, Spark, AWS, and modern lakehouse and warehouse patterns. I hold an M.S. in Information Technology and Management from Illinois Institute of Technology and the AWS Certified Data Engineer - Associate certification. I care most about solving practical business problems and moving systems beyond isolated notebooks into observable, dependable production use.
 
+## Experience
+
+### Artificial Intelligence Engineer · Procter & Gamble
+<sub>United States · January 2026 - Present</sub>
+
+- Architected high-speed computer-vision inspection pipelines with Python, OpenCV, PyTorch, CUDA, and AWS SageMaker, reducing product recall rates by 26%.
+- Developed agentic AI, enterprise RAG, and fine-tuned LLM workflows with LangGraph, OpenAI SDK, LangSmith, LangChain, LlamaIndex, FAISS, PEFT, QLoRA, and Hugging Face, including a 40% reduction in internal HR and IT support resolution time.
+- Built Databricks, Delta Lake, and Airflow feature stores plus FastAPI, Docker, and Kubernetes inference services on AWS, saving over $1.2M annually in cloud infrastructure overhead.
+
+### Machine Learning Engineer · Bosch
+<sub>India · March 2021 - July 2024</sub>
+
+- Built time-series forecasting models with XGBoost, scikit-learn, and AWS S3 to predict industrial spare-parts demand and reduce inventory holding costs by 22%.
+- Delivered OCR, anomaly-detection, and BERT classification systems with PaddleOCR, PyMuPDF, OpenCV, PyTorch, and PostgreSQL, cutting document-review cycles by 45% and accelerating warranty root-cause analysis by 30%.
+- Implemented MLflow, Airflow, and Azure ML CI/CD workflows alongside Spark and Snowflake data pipelines, shortening model retraining turnaround by three weeks and supporting a 14% increase in manufacturing yield efficiency.
+
 ## Current Focus
 
 - Trustworthy RAG and knowledge-retrieval systems
@@ -195,16 +211,9 @@ The projects above are prioritized for recruiter review. These additional public
 
 ## GitHub Activity
 
-<div align="center">
-  <a href="https://github.com/Shreevikas-BJ">
-    <img width="340" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Shreevikas-BJ&amp;theme=transparent" alt="GitHub activity statistics for Shreevikas Jagadish" />
-  </a>
-  <a href="https://github.com/Shreevikas-BJ?tab=repositories">
-    <img width="340" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Shreevikas-BJ&amp;theme=transparent" alt="Top programming languages across Shreevikas Jagadish's public repositories" />
-  </a>
-</div>
-
-<p align="center"><sub>Generated from public GitHub activity. Language distribution reflects repository composition, not proficiency.</sub></p>
+<p align="center">
+  <a href="https://github.com/Shreevikas-BJ"><strong>View contribution activity, repositories, and current work on GitHub</strong></a>
+</p>
 
 ## Let's Connect
 
