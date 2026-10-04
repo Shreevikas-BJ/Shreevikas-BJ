@@ -28,7 +28,24 @@
 
 ## About
 
-I am an AI/ML and Data professional with 4+ years of experience across machine learning, data science, analytics, and data engineering. I build production-oriented models and inference workflows, trustworthy RAG systems, agentic AI applications, and evaluation layers that improve retrieval quality, safety, and reliability. My data work spans batch and streaming pipelines, Snowflake, Databricks, Spark, AWS, and modern lakehouse and warehouse patterns. I hold an M.S. in Information Technology and Management from Illinois Institute of Technology and the AWS Certified Data Engineer - Associate certification. I care most about solving practical business problems and moving systems beyond isolated notebooks into observable, dependable production use.
+I build production ML, agentic AI, RAG, predictive modeling, and data systems with Python, PyTorch, LangGraph, FastAPI, Spark, and AWS. My work connects stakeholder interviews and practical requirements with retrieval quality, model evaluation, deployment, and iteration based on user feedback. At NeuralSeek, I worked on enterprise RAG, concurrent LLM serving, and grounded fine-tuning; at Whiterock, I developed manufacturing ML, sentiment analysis, and AWS-to-Snowflake data workflows. I hold an M.S. in Information Technology from Illinois Institute of Technology and the AWS Certified Data Engineer - Associate certification. I enjoy turning AI experiments into useful products that people can trust and operate.
+
+## Experience
+
+### AI Engineer Intern · NeuralSeek
+<sub>USA · July 2025 - November 2025</sub>
+
+- Reduced IT/HR support resolution time by **40%** by interviewing non-technical stakeholders and translating requirements into enterprise RAG with open-source embeddings, PostgreSQL + pgvector, and metadata-filtered retrieval.
+- Improved concurrent LLM serving with **vLLM**, tuning retrieval thresholds, context windows, token budgets, and generation parameters to increase throughput and reduce unnecessary token usage.
+- Reduced manual compliance-analysis effort by **35%** by fine-tuning an open-source LLM on AWS with **PEFT/QLoRA** for structured, grounded responses with retrieval context, citations, and validation.
+
+### Data Scientist (AI/ML) · Whiterock
+<sub>India · February 2022 - July 2024</sub>
+
+- Improved manufacturing defect-detection accuracy by **22%** while maintaining **98.8% pipeline uptime** through Scikit-learn and PySpark ML workflows on AWS SageMaker with CloudWatch monitoring.
+- Gathered requirements with manufacturing and operations stakeholders, then built time-series forecasting and predictive-maintenance models using **LightGBM, PCA, and anomaly detection** for demand and equipment telemetry.
+- Built a **BERT + spaCy** sentiment pipeline processing **20K+ customer reviews**, achieving approximately **89% F1** across positive, neutral, and negative classes and extracting recurring product themes.
+- Reduced data-preparation time by **45%** and improved reporting performance by **40% for 200+ users** by operating **12 AWS-to-Snowflake ELT pipelines** with Airflow and dbt.
 
 ## Current Focus
 
@@ -36,6 +53,41 @@ I am an AI/ML and Data professional with 4+ years of experience across machine l
 - LLM evaluation, red teaming, guardrails, and agent reliability
 - Production ML, MLOps, monitoring, and cloud deployment
 - Batch, streaming, lakehouse, and analytics-ready data platforms
+
+## Latest Projects
+
+<table>
+  <tr>
+    <td width="100%" valign="top">
+      <h3>ArchPilot · Agentic AI System Architecture Copilot</h3>
+      <p><strong>Problem:</strong> Application requirements need to be translated into architecture choices that balance cost, performance, and current technology options.</p>
+      <p><strong>Engineering:</strong> Built a multi-agent design copilot with web research, FastAPI and PydanticAI orchestration, JEV System One routing, PostgreSQL persistence, and GPU-accelerated local inference through llama.cpp.</p>
+      <p>
+        <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&amp;logo=nextdotjs&amp;logoColor=white" alt="Next.js" />
+        <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&amp;logo=fastapi&amp;logoColor=white" alt="FastAPI" />
+        <img src="https://img.shields.io/badge/PydanticAI-E92063?style=flat-square" alt="PydanticAI agent orchestration" />
+        <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&amp;logo=postgresql&amp;logoColor=white" alt="PostgreSQL" />
+        <img src="https://img.shields.io/badge/llama.cpp-111827?style=flat-square" alt="llama.cpp local LLM inference" />
+      </p>
+      <p><sub>Local build; deployment pending. Architecture details are documented in my current resume.</sub></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="100%" valign="top">
+      <h3><a href="https://github.com/Shreevikas-BJ/accord-procurement-ai">Accord · AI Procurement Workspace</a></h3>
+      <p><strong>Problem:</strong> Buyers need to compare supplier quotes, identify price and delivery risks, and trace recommendations back to source documents.</p>
+      <p><strong>Engineering:</strong> Built a local Next.js and FastAPI application with PostgreSQL, Redis/RQ document jobs, OCR and local Ollama extraction, deterministic procurement calculations, source-evidence review, human approvals, and audit trails.</p>
+      <p>
+        <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&amp;logo=nextdotjs&amp;logoColor=white" alt="Next.js" />
+        <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&amp;logo=fastapi&amp;logoColor=white" alt="FastAPI" />
+        <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&amp;logo=postgresql&amp;logoColor=white" alt="PostgreSQL" />
+        <img src="https://img.shields.io/badge/Ollama-111827?style=flat-square&amp;logo=ollama&amp;logoColor=white" alt="Ollama local document extraction" />
+        <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&amp;logo=docker&amp;logoColor=white" alt="Docker" />
+      </p>
+      <p><sub>Local MVP with a working review workflow; document-generalization evaluation is ongoing and the repository reports that it is not ready for a buyer pilot.</sub></p>
+    </td>
+  </tr>
+</table>
 
 ## Featured Projects
 
@@ -149,9 +201,9 @@ The projects above are prioritized for recruiter review. These additional public
 | [Scikit-learn Hands-on Guide](https://github.com/Shreevikas-BJ/scikitlearn-handson-guide) | Notebook-based guide to regression, classification, clustering, ensemble methods, and XGBoost with real datasets. |
 
 <details>
-  <summary><strong>Resume-based engineering case studies</strong></summary>
+  <summary><strong>Additional engineering case studies</strong></summary>
   <br />
-  <p>These engagements are documented in my resume; no public repository is linked.</p>
+  <p>Additional portfolio project work without public repository links.</p>
   <ul>
     <li><strong>Intelligent Inventory Demand Forecasting Platform:</strong> Multi-regional inventory forecasting with PySpark, XGBoost, MLflow, FastAPI, and AWS-based training and release workflows.</li>
     <li><strong>Manufacturing Process Quality Intelligence System:</strong> Predictive-quality and anomaly-detection workflows using Python, Scikit-learn, statistical validation, PostgreSQL, and Tableau.</li>
@@ -180,18 +232,26 @@ The projects above are prioritized for recruiter review. These additional public
 **Additional Modeling, Analytics & Delivery**<br />
 <sub>R · LightGBM · BERT · FAISS · OpenCV · Matplotlib · Plotly · statistical analysis · A/B testing · SQL Server · MySQL · MongoDB · Linux · REST APIs · Jira · Confluence · Agile · Scrum</sub>
 
+**Agent Orchestration & Local Inference**<br />
+<sub>PydanticAI · LlamaIndex · OpenAI SDK · JEV · vLLM · llama.cpp · PEFT · LoRA/QLoRA · LangSmith · metadata filtering · semantic search · context/token optimization · tool calling</sub>
+
+**Applied ML & Product Delivery**<br />
+<sub>Classification · regression · time-series forecasting · PCA · feature engineering · hyperparameter tuning · spaCy · Airflow · Async Python · Terraform · React · JavaScript · Java · Bash · Tailwind CSS · Zod · Vitest · Playwright · Redis/RQ · Ollama</sub>
+
 ## Professional Highlights
 
-- Built forecasting and experimentation workflows with Python, PySpark, XGBoost, and MLflow; resume-documented outcomes include a 24% improvement in inventory planning accuracy and 40% faster model iteration.
-- Applied statistical validation, retrieval evaluation, drift monitoring, and A/B testing to ML and RAG workflows, improving consistency by a resume-documented 18%.
-- Automated manufacturing ETL, NLP preprocessing, analytics, and reporting workflows, reducing data preparation time by 45% and manual processing effort by 55% according to resume experience.
-- Developed practical systems across forecasting, AI safety, FinOps, manufacturing intelligence, knowledge retrieval, streaming data, and business analytics.
+- Turned stakeholder interviews into enterprise RAG requirements, retrieval controls, and grounded response validation.
+- Tuned concurrent LLM serving and fine-tuning workflows across vLLM, AWS, PEFT, and QLoRA.
+- Connected manufacturing ML and customer-feedback analysis with monitored cloud pipelines and analytics-ready Snowflake data.
+- Researched Physics-Informed Neural Networks for power-system dynamics as a Graduate Research Assistant, using PyTorch, NVIDIA PhysicsNeMo, and CUDA-accelerated simulation and time-series workflows.
 
 ## Certification & Education
 
 - **AWS Certified Data Engineer - Associate**
-- **M.S., Information Technology and Management** · Illinois Institute of Technology · May 2026
-- **B.E., Computer Science and Engineering** · Visvesvaraya Technological University · August 2023
+- **AI Fluency: Framework & Foundations** · Anthropic
+- **Google Data Analytics Professional Certificate** · Google
+- **M.S., Information Technology** · Illinois Institute of Technology · May 2026
+- **Bachelor of Computer Science** · Visvesvaraya Technological University · August 2023
 
 ## GitHub Activity
 
